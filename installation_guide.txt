@@ -1,0 +1,17 @@
+1. Create your mysql database.
+2. Import database.sql to your mysql database.
+3. Change database conection settings in "ourtecads.php" file at "/application/config/".
+4. Login to your admin panel, example "https://yoursite.com/admin".
+    Defaul admin username and password is
+    USERNAME: admin
+    PASSWORD: 12345
+5. For security, Change your admin login information.
+6. setting faucet, captcha, and .etc from your admin panel.
+7. cronjob settings
+    every 5 mitutes updating price, command "wget -q -O - https://yoursite.com/cronjob/fiveminutes >/dev/null 2>&1"
+    once a day updating last price, command "wget -q -O - https://yoursite.com/cronjob/daily >/dev/null 2>&1"
+   Enjoy...
+   
+   
+   
+if any questions, find me at "https://web.facebook.com/Rizky.Rama.999" and "https://t.me/MrqRama".
